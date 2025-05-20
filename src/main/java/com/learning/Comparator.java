@@ -1,5 +1,6 @@
 package com.learning;
 
+import com.learning.model.TableSchema;
 import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import net.sf.jsqlparser.statement.Statement;
 import net.sf.jsqlparser.statement.create.table.ColumnDefinition;
