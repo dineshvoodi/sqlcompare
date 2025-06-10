@@ -11,7 +11,7 @@ public class TableSchema {
     public List<String> primaryKeys = new ArrayList<>();
     public List<List<String>> uniqueConstraints = new ArrayList<>();
     public List<List<String>> indexes = new ArrayList<>();
-    public Map<String, String> foreignKeys = new LinkedHashMap<>(); // column -> referenced table.column
-    public List<String> checks = new ArrayList<>();
+    public Map<List<String>, Map<String, List<String>>> foreignKeys = new LinkedHashMap<>(); // column -> referenced table.column
+    public Map<String, String> specs = new LinkedHashMap<>();
 
 }
